@@ -1,0 +1,41 @@
+.device::before{
+    content:'XXL-extra extra large';
+    color:red;
+    font-weight:bold;
+    font-size:30px;
+
+}
+@media (max-width:1400px){
+    .device::before{
+        content:'XL:Extra Large';
+    }
+}
+@media (max-width:1200px){
+    .device::before{
+        content:'LD:Large';
+    }
+}
+@media (max-width:992px){
+    .device::before{
+        content:'MD:Medium';
+    }
+}
+@media (max-width:768px){
+    .device::before{
+        content:'SM:Small';
+    }
+}
+
+@media (max-width:576px){
+    .device::before{
+        content:'XL: Extra small';
+    }
+}
+
+
+.test{
+    height:40px;
+    background-color:yellow;
+    border:2px solid gray;
+    margin:2px;
+}
